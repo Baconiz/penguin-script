@@ -1,0 +1,178 @@
+if game.PlaceId == 6206893534 then    
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("TP Cobra Kai", "Sentinel")
+    local TP = Window:NewTab("TP")
+    local TPSection = TP:NewSection("red bag tp")
+    TPSection:NewToggle("red bag1", "stick yourself to a redbag", function(v)
+        getgenv().autoblackbag = v
+        while true do
+            if not getgenv().autoblackbag then return end
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(95.4486465, 3.39999938, 66.0097198, 0.0305786263, -2.73887455e-08, -0.999532342, 1.57433675e-08, 1, -2.69199241e-08, 0.999532342, -1.49128301e-08, 0.0305786263)
+            wait()
+        end
+    end)
+    TPSection:NewToggle("red bag2", "stick yourself to a redbag", function(v)
+        getgenv().autoblackbag = v
+        while true do
+            if not getgenv().autoblackbag then return end
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(95.9433975, 3.39999914, 71.8220825, 0.251104653, -4.59935769e-08, -0.96795994, 6.38576552e-08, 1, -3.09502717e-08, 0.96795994, -5.40398943e-08, 0.251104653)
+            wait()
+        end
+    end)
+    TPSection:NewToggle("red bag3", "stick yourself to a redbag", function(v)
+        getgenv().autoblackbag = v
+        while true do
+            if not getgenv().autoblackbag then return end
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(95.5805664, 3.39999962, 75.9663467, 0.266248643, -9.50804733e-08, -0.963904381, 5.96184435e-08, 1, -8.21732371e-08, 0.963904381, -3.55879628e-08, 0.266248643)
+            wait()
+        end
+    end)
+    TPSection:NewToggle("black bag 1.0", "stick yourself to a blackbag", function(v)
+        getgenv().autoblackbag = v
+        while true do
+            if not getgenv().autoblackbag then return end
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(61.699585, 3.26012897, 69.9587708, 0.395956457, 7.55650404e-08, -0.918269277, -6.60124755e-08, 1, 5.3826227e-08, 0.918269277, 3.93043891e-08, 0.395956457)
+            wait()
+        end
+    end)
+    TPSection:NewToggle("black bag 2.0", "stick yourself to a blackbag", function(v)
+        getgenv().autoblackbag = v
+        while true do
+            if not getgenv().autoblackbag then return end
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(63.45681, 3.26012874, 17.8541508, 0.985091925, -3.53422607e-08, -0.17202875, 1.29869653e-08, 1, -1.31076391e-07, 0.17202875, 1.26888168e-07, 0.985091925)
+            wait()
+        end
+    end)
+    TPSection:NewToggle("black bag 1", "stick yourself to a blackbag", function(v)
+        getgenv().autoblackbag = v
+        while true do
+            if not getgenv().autoblackbag then return end
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(53.7652473, 3.21012902, -26.5926704, 0.272637039, 3.62247743e-09, -0.962116957, 2.75677277e-08, 1, 1.15770344e-08, 0.962116957, -2.96797058e-08, 0.272637039)
+            wait()
+        end
+    end)
+    TPSection:NewToggle("black bag 2", "stick yourself to a blackbag", function(v)
+        getgenv().autoblackbag = v
+        while true do
+            if not getgenv().autoblackbag then return end
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.0625763, 3.21012902, -36.9968109, 0.347528994, -3.42768374e-08, -0.937669218, 3.35218182e-08, 1, -2.41311451e-08, 0.937669218, -2.30461055e-08, 0.347528994)
+            wait()
+        end
+    end)
+    TPSection:NewToggle("black bag 3", "stick yourself to a blackbag", function(v)
+        getgenv().autoblackbag = v
+        while true do
+            if not getgenv().autoblackbag then return end
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.0674362, 3.21012902, -47.2715416, 0.00261120475, 5.67474991e-08, -0.999996603, 7.44833173e-09, 1, 5.67671421e-08, 0.999996603, -7.59653762e-09, 0.00261120475)
+            wait()
+        end
+    end)
+    TPSection:NewToggle("black bag 4", "stick yourself to a blackbag", function(v)
+        getgenv().autoblackbag = v
+        while true do
+            if not getgenv().autoblackbag then return end
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.0615463, 3.21012902, -56.8124619, 0.234784052, 1.03657811e-07, -0.972047567, 1.27377406e-08, 1, 1.09715238e-07, 0.972047567, -3.81410779e-08, 0.234784052)
+            wait()
+        end
+    end)
+    TPSection:NewToggle("black bag 5", "stick yourself to a blackbag", function(v)
+        getgenv().autoblackbag = v
+        while true do
+            if not getgenv().autoblackbag then return end
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.050106, 3.21012902, -66.7677994, 0.220300883, -6.46356497e-08, -0.975431979, 1.25066322e-08, 1, -6.34390034e-08, 0.975431979, 1.77629922e-09, 0.220300883)
+            wait()
+        end
+    end)
+    TPSection:NewToggle("black bag 6", "stick yourself to a blackbag", function(v)
+        getgenv().autoblackbag = v
+        while true do
+            if not getgenv().autoblackbag then return end
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6.65959358, 3.21012902, -67.6238708, -0.190087423, -9.36203293e-08, 0.981767178, 1.15623049e-08, 1, 9.75976633e-08, -0.981767178, 2.99035783e-08, -0.190087423)
+            wait()
+        end
+    end)
+    TPSection:NewToggle("black bag 7", "stick yourself to a blackbag", function(v)
+        getgenv().autoblackbag = v
+        while true do
+            if not getgenv().autoblackbag then return end
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6.75300169, 3.21012902, -57.0440407, 0.126966968, 9.11314686e-08, 0.991906941, 4.04118516e-08, 1, -9.70478524e-08, -0.991906941, 5.24066692e-08, 0.126966968)
+            wait()
+        end
+    end)
+    TPSection:NewToggle("black bag 8", "stick yourself to a blackbag", function(v)
+        getgenv().autoblackbag = v
+        while true do
+            if not getgenv().autoblackbag then return end
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6.78298855, 3.21012902, -47.5101013, -0.123281486, -7.49002851e-08, 0.992371738, 9.37884526e-09, 1, 7.66411645e-08, -0.992371738, 1.87557383e-08, -0.123281486)
+            wait()
+        end
+    end)
+    TPSection:NewToggle("black bag 9", "stick yourself to a blackbag", function(v)
+        getgenv().autoblackbag = v
+        while true do
+            if not getgenv().autoblackbag then return end
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6.72425747, 3.21012902, -37.6037941, -0.193263859, -1.99453538e-08, 0.981146812, -5.03461439e-10, 1, 2.0229443e-08, -0.981146812, 3.41565065e-09, -0.193263859)
+            wait()
+        end
+    end)
+    TPSection:NewToggle("black bag 10", "stick yourself to a blackbag", function(v)
+        getgenv().autoblackbag = v
+        while true do
+            if not getgenv().autoblackbag then return end
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6.70790768, 3.21012902, -27.5574436, -0.126042217, 1.07780288e-07, 0.992024899, -2.5701679e-08, 1, -1.119123e-07, -0.992024899, -3.960238e-08, -0.126042217)
+            wait()
+        end
+    end)
+    local Button_tp = Window:NewTab("Button_tp")
+    local Button_tpSection = Button_tp:NewSection("button tp")
+    Button_tpSection:NewButton("red bag 1", "tp you the red bag 1", function(v)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(95.4486465, 3.39999938, 66.0097198, 0.0305786263, -2.73887455e-08, -0.999532342, 1.57433675e-08, 1, -2.69199241e-08, 0.999532342, -1.49128301e-08, 0.0305786263)
+    end)
+    Button_tpSection:NewButton("red bag 2", "tp you the red bag 2", function(v)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(95.9433975, 3.39999914, 71.8220825, 0.251104653, -4.59935769e-08, -0.96795994, 6.38576552e-08, 1, -3.09502717e-08, 0.96795994, -5.40398943e-08, 0.251104653)
+    end)
+    Button_tpSection:NewButton("red bag 3", "tp you the red bag 3", function(v)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(95.5805664, 3.39999962, 75.9663467, 0.266248643, -9.50804733e-08, -0.963904381, 5.96184435e-08, 1, -8.21732371e-08, 0.963904381, -3.55879628e-08, 0.266248643)
+    end)
+    Button_tpSection:NewButton("black bag 1.0", "tp you the black bag 1.0", function(v)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(61.699585, 3.26012897, 69.9587708, 0.395956457, 7.55650404e-08, -0.918269277, -6.60124755e-08, 1, 5.3826227e-08, 0.918269277, 3.93043891e-08, 0.395956457)
+    end)
+    Button_tpSection:NewButton("black bag 2.0", "tp you the red bag 2.0", function(v)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(63.45681, 3.26012874, 17.8541508, 0.985091925, -3.53422607e-08, -0.17202875, 1.29869653e-08, 1, -1.31076391e-07, 0.17202875, 1.26888168e-07, 0.985091925)
+    end)
+    Button_tpSection:NewButton("black bag 1", "tp you the black bag 1", function(v)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(53.7652473, 3.21012902, -26.5926704, 0.272637039, 3.62247743e-09, -0.962116957, 2.75677277e-08, 1, 1.15770344e-08, 0.962116957, -2.96797058e-08, 0.272637039)
+    end)
+    Button_tpSection:NewButton("black bag 2", "tp you the black bag 2", function(v)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.0625763, 3.21012902, -36.9968109, 0.347528994, -3.42768374e-08, -0.937669218, 3.35218182e-08, 1, -2.41311451e-08, 0.937669218, -2.30461055e-08, 0.347528994)
+    end)
+    Button_tpSection:NewButton("black bag 3", "tp you the black bag 3", function(v)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.0674362, 3.21012902, -47.2715416, 0.00261120475, 5.67474991e-08, -0.999996603, 7.44833173e-09, 1, 5.67671421e-08, 0.999996603, -7.59653762e-09, 0.00261120475)
+    end)
+    Button_tpSection:NewButton("black bag 4", "tp you the black bag 4", function(v)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.0615463, 3.21012902, -56.8124619, 0.234784052, 1.03657811e-07, -0.972047567, 1.27377406e-08, 1, 1.09715238e-07, 0.972047567, -3.81410779e-08, 0.234784052)
+    end)
+    Button_tpSection:NewButton("black bag 5", "tp you the black bag 5", function(v)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.050106, 3.21012902, -66.7677994, 0.220300883, -6.46356497e-08, -0.975431979, 1.25066322e-08, 1, -6.34390034e-08, 0.975431979, 1.77629922e-09, 0.220300883)
+    end)
+    Button_tpSection:NewButton("black bag 6", "tp you the black bag 6", function(v)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6.65959358, 3.21012902, -67.6238708, -0.190087423, -9.36203293e-08, 0.981767178, 1.15623049e-08, 1, 9.75976633e-08, -0.981767178, 2.99035783e-08, -0.190087423)
+    end)
+    Button_tpSection:NewButton("black bag 7", "tp you the black bag 7", function(v)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6.75300169, 3.21012902, -57.0440407, 0.126966968, 9.11314686e-08, 0.991906941, 4.04118516e-08, 1, -9.70478524e-08, -0.991906941, 5.24066692e-08, 0.126966968)
+    end)
+    Button_tpSection:NewButton("black bag 8", "tp you the black bag 8", function(v)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6.78298855, 3.21012902, -47.5101013, -0.123281486, -7.49002851e-08, 0.992371738, 9.37884526e-09, 1, 7.66411645e-08, -0.992371738, 1.87557383e-08, -0.123281486)
+    end)
+    Button_tpSection:NewButton("black bag 9", "tp you the black bag 9", function(v)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6.72425747, 3.21012902, -37.6037941, -0.193263859, -1.99453538e-08, 0.981146812, -5.03461439e-10, 1, 2.0229443e-08, -0.981146812, 3.41565065e-09, -0.193263859)
+    end)
+    Button_tpSection:NewButton("black bag 10", "tp you the black bag 10", function(v)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6.70790768, 3.21012902, -27.5574436, -0.126042217, 1.07780288e-07, 0.992024899, -2.5701679e-08, 1, -1.119123e-07, -0.992024899, -3.960238e-08, -0.126042217)
+    end)
+    local Credits = Window:NewTab("Credits")
+    local CreditsSection = Credits:NewSection("Owner")
+    CreditsSection:NewLabel("Haha_noobme/Penguin")
+    local CreditsSection = Credits:NewSection("others")
+    CreditsSection:NewLabel("Just_Baconi")
+end
